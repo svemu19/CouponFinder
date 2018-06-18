@@ -31,6 +31,7 @@ protected void onCreate(Bundle bundle)
             // Permission is not granted
             String[] arr = manager.getCameraIdList();
             manager.openCamera(arr[0], null, null);
+            // This is a comment
         }
 
     }
